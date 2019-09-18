@@ -1,0 +1,28 @@
+.container{
+    background-color: white;
+    width: 400px;
+    height:400px;
+    margin-left: 35%;
+    margin-top: 100px;
+    align-content: center;
+    text-align:center;
+    padding-top:25px;
+    border-radius: 25px;
+}
+.container h1{
+    margin-bottom: 25px;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container input[type=number]{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .container p{
+      text-decoration: crimson;
+  }

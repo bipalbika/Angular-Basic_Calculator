@@ -1,0 +1,48 @@
+<div class="container">
+
+<h1>Angular Calculator</h1>
+<input 
+    type="number" 
+    name="f_no" 
+    id="f_no" 
+    placeholder="Enter First Number"
+    [(ngModel)]="f_no">
+<br><br>  
+<input 
+    type="number" 
+    name="s_no" 
+    id="s_no" 
+    placeholder="Enter Second Number"
+    [(ngModel)]="s_no">
+    <br><br>  
+<input 
+    type="radio" 
+    name="operations" 
+    id="add"
+    value="+"
+    [(ngModel)]="operator"
+    (change)="add()">Add
+<input 
+    type="radio" 
+    name="operations" 
+    id="subtract"
+    value="-"
+    [(ngModel)]="operator"
+    (change)="sub()">Subtract
+<input 
+    type="radio" 
+    name="operations" 
+    id="multiply"
+    value="*"
+    [(ngModel)]="operator"
+    (change)="mul()">Multiply
+<input 
+    type="radio" 
+    name="operations" 
+    id="divide"
+    value="/"
+    [(ngModel)]="operator"
+    (change)=div()>Divide
+    <br><br>  
+    <p><b>Result:{{f_no}} {{operator}} {{s_no}}={{result}}</b></p>
+    </div>
